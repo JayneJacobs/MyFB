@@ -38,7 +38,7 @@ Sumoflist ( A[], n) //array, size of array
     total = 0                // 1                  1                  c1
     for i=0 to n-1           //1 each = 2          n+1                c2
         total = total + Ai   //1 each = 2          n                  c3
-    return total             //1                                      c4
+    return total             //1                   1                  c4
 }
 ```
 
@@ -62,6 +62,6 @@ Tsum of list c*n + c'                O(n)
 
 
 Tsum of Matrix  =  an^2 + bn + c    On^2
-```
+```  
 
 [Asymptotic Notation](AsymptoticNotation.md)

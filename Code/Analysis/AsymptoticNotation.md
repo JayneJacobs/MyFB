@@ -1,8 +1,8 @@
 # Asymptotic Notation  - BIG O
 
-Running time in broad classes
+Classify Running time in broad classes
 
-algo1:   T(n) = 5n^2 + 7)
+algo1:   T(n) = 5ne + 7          // Model Machine
 
 Algo2:   T(n) = 17n2 + 6n + 8      // 6n + 8 quadratic 17n2 exponential
 
@@ -14,17 +14,23 @@ Algo2:   T(n) = 17n2 + 6n + 8      // 6n + 8 quadratic 17n2 exponential
 
 0 g(n) = { fn : there exist
                constants c and No
-               f(n) ≤  cg(n) for  n ≥ no}
+               f(n) ≤  cg(n) for  n ≥ no
+               }
+
+|  a function 	|  f(n) = 5n^2 + 2n + 1  	|   	|  O( n^2 ) 	|   	
+|---	|---	|---	|---	|
+|   	|  g(n) = n2   	|   	|   	|   	|
+|   	|   ```   c = 8    ```| f(n) ≤ 8n^2 for  n ≥ 1   	|   	|   	
+|   |f(n) =  5n^2 + 2n + 1 is a member of the set:	|   	| ```no = 1     O(n^2)```  	|   	|   	
+
+|  |  |   |
+|---|---|---|
+|   | ![Image](./cofGofNGthfn.png) |     |                 
+|   | |
 
 
-f(n) =  5n^2 + 2n + 1
-g(n) = n2
 
-c = 8, f(n) ≤ 8n^2   n ≥ 1
-
-no = 1 O(n^2)
-
-Omega Ωnotation - Lower Bownd of rate of growth
+## Omega Ωnotation - Lower Bownd of rate of growth
 
 Ω(g(n)) { f(n): there exist
      constants c and no ,

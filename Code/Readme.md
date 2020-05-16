@@ -7,8 +7,8 @@ Time Complexity
 Factors:
     - single  processor
     - Read Write Speed
-    - Architecture 32 / 64 bbit
-    - Input
+    - Architecture 32 / 64 bit
+    - ## Input
 
 ### Input
 - rate of growth of time/input
@@ -19,9 +19,11 @@ Factors:
     -  logic
     -  assignement
     -  return
-
+[Time Complexity Ex. ](Analysis/TimeComplexEx.md)
 [Asymptotic Notations](Analysis/AsymptoticNotation.md)
 
-[General Rules](Analysis/GeneralRules.mdGeneralRules.md)
+[General Rules](Analysis/GeneralRules.md)
 
 [Space Complexity](Analysis/SpaceComplexity.md)
+
+
