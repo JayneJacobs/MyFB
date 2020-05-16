@@ -4,7 +4,7 @@
 Analyze Time Complexity for:
 
  a) Very Large input size
- 
+
  b) worst case scenario
 
 
@@ -17,8 +17,8 @@ Analyze Time Complexity for:
 
 
 Rule Big O:  
-            drop lower order terms
-            drop constant multiplier
+            - drop lower order terms
+            - drop constant multiplier
 
 T(n) = 17n^4 ~~+ 3n^3 + 4n + 8~~  = O(n4)
 T(n) = 16n + lgn = On
