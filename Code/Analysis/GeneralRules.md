@@ -16,7 +16,8 @@ Analyze Time Complexity for:
 
 
 
-Rule Big O:  
+Rule Big O: 
+
             - drop lower order terms
             - drop constant multiplier
 
